@@ -35,7 +35,7 @@ footer {
     border: solid hsl(0, 0%, 100%) 1px;
     border-radius: 5%;
     width: 30%;
-    min-width: 375px;
+    /* min-width: 375px; */ /* Avoiding min-width bc it kinda sets a height and affects responsiveness*/
     max-width: 1440px;
     margin: 5% auto;
 }
